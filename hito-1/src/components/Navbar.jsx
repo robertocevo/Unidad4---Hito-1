@@ -9,6 +9,7 @@ const Navbar = () => {
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
+        <a class="navbar-brand" href="#">Pizzería Mamma Mia</a>
           <button className="btn btn-outline-light me-2">🍕 Home</button>
           <div className="ms-auto d-flex">
             {token ? (
